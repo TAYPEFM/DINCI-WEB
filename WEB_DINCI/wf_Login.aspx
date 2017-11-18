@@ -34,8 +34,7 @@
                     runat="server"></asp:TextBox>                
             </div>            
                 <asp:Button ID="BTN_Acceder" Text="Ingresar" runat=server 
-                CssClass="btn btn-primary block full-width m-b" 
-                PostBackUrl="~/wf_MantenimientoIncidente.aspx" />          
+                CssClass="btn btn-primary block full-width m-b"/>          
             </form>
             <p class="m-t">
                 <small>DINCI - Divulgacion de incidentes</small>

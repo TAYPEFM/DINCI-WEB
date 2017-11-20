@@ -25,15 +25,15 @@
             </p>
             <p>
                 Loguese.</p>
-            <form class="m-t" role="form" action="index.html">
+            <form class="m-t" role="form" action="#">
             <div class="form-group">                
-                <asp:TextBox CssClass="form-control" placeholder="Usuario" ID="TXT_usuario" runat="server"></asp:TextBox>
+                <asp:TextBox CssClass="form-control" required="" placeholder="Usuario" ID="TXT_usuario" runat="server"></asp:TextBox>
             </div>
             <div class="form-group">
-                <asp:TextBox CssClass="form-control" placeholder="Contraseña" ID="TXT_Contraseña"
+                <asp:TextBox CssClass="form-control" required="" TextMode="Password" placeholder="Contraseña" ID="TXT_Contraseña"
                     runat="server"></asp:TextBox>                
             </div>            
-                <asp:Button ID="BTN_Acceder" Text="Ingresar" runat=server 
+                <asp:Button ID="BTN_Acceder" Text="Ingresar" runat="server" 
                 CssClass="btn btn-primary block full-width m-b"/>          
             </form>
             <p class="m-t">
